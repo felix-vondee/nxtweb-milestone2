@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "extends": ["stylelint-config-standard"],
     "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
@@ -7,4 +8,15 @@
       "csstree/validator": true
     },
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
+=======
+{
+    "extends": ["stylelint-config-standard"],
+    "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
+    "rules": {
+      "at-rule-no-unknown": null,
+      "scss/at-rule-no-unknown": true,
+      "csstree/validator": true
+    },
+    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
+>>>>>>> b0ed3d7e04029a05c3f1a743d926e2a570dcdec7
   }
