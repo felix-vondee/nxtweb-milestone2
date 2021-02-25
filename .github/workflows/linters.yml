@@ -20,11 +20,7 @@ jobs:
         run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
   webhint:
     name: Webhint
-<<<<<<< HEAD
     runs-on: ubuntu-18.04
-=======
-    runs-on: ubuntu-20.04
->>>>>>> b0ed3d7e04029a05c3f1a743d926e2a570dcdec7
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -38,11 +34,7 @@ jobs:
         run: npx hint --telemetry=off .
   stylelint:
     name: Stylelint
-<<<<<<< HEAD
     runs-on: ubuntu-18.04
-=======
-    runs-on: ubuntu-20.04
->>>>>>> b0ed3d7e04029a05c3f1a743d926e2a570dcdec7
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
