@@ -588,7 +588,134 @@ body {
 #title2 > div > p {
   color: #f42;
 }
+#title3 > div > a {/*  highlight 1  */
+  font-size: 22px;
+  color: #f42;
+}
 
+#title3 > div > p > a {
+  color: #f42;
+}/*  highlight 2  */
+
+
+/*  SECTION 4  */
+
+#section4 {/*  highlight 1  */
+  display: grid;
+  grid-template-columns: unset;
+  grid-gap: 20px;
+  width: 97%;
+  height: auto;
+  margin: auto;
+}
+
+.section4_items {
+  height: 730px;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 10% 40% 15% 30%;
+  justify-items: center;
+  margin: 60px auto auto auto;
+}
+
+.part1 {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+
+#part2_1 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+.part3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 70% 30%;
+}
+
+.before_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff4f2;
+}
+
+#part3_1 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.part4 {
+  display: grid;
+  width: auto;
+  margin-top: 10px;
+}
+
+.part4 > ul > li {
+  border-bottom: 1px solid #eee;
+  font-size: smaller;
+  color: #3f3d3d;
+}
+
+.part4 > ul {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  list-style: none;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+/*  2  */
+
+#part2_2 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_2 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/header-image-bernie-sitting-meme-analysis.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/*  3  */
+
+#part2_3 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part3_3 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg);
+  background-position: center;
+  background-size: cover;
+} /*  highlight 2  */
 #title2 > div > a {
   color: #f42;
   font-size: 14px;
