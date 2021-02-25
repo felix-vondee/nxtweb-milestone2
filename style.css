@@ -1187,6 +1187,10 @@ footer {
     display: none;
   }
 
+  .swiss {
+    margin-left: 40px;
+  }
+
   #section2 {/*  highlight  */
     width: 90%;
     grid-gap: 25px;
