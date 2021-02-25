@@ -83,7 +83,7 @@ a {
 }
 
 /*   highlight  */
-.section5_items > div > p > a {
+.section5_items > div > h4 > a {
   color: #000;
   font-weight: bolder;
   font-size: 14px;
