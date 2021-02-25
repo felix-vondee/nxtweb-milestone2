@@ -1,3 +1,18 @@
+$w : white;
+
+@mixin part2a {
+  color: $w;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@mixin part2p {
+  color: $w;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
 #part2_1 > a,
 #part2_2 > a,
 #part2_3 > a,
@@ -7,10 +22,7 @@
 #part2_7 > a,
 #part2_8 > a,
 #part2_9 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
+  @include part2a;
 }
 
 #part2_1 > p,
@@ -22,25 +34,21 @@
 #part2_7 > p,
 #part2_8 > p,
 #part2_9 > p {
-  color: white;
-  margin: 0 0 10px 10px;
-  font-size: small;
+  @include part2p;
 }
 
-#title1 {
-  /*  highlight 1  */
+#title1 {/*  highlight 1  */
   margin: auto;
-  display: -webkit-box;
   display: flex;
   width: 90%;
   margin-top: 60px;
   margin-bottom: 30px;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: start;
-}
 
-#title1 h3 a {
-  color: #f42;
-  font-size: 27px;
+  h3 {
+    a {
+      color: #f42;
+      font-size: 27px;
+    }
+  }
 }
