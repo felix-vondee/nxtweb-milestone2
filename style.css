@@ -245,7 +245,8 @@ a {
   color: white;
   margin: 0 0 10px 10px;
   font-size: small;
-}
+}/*  highlight 2  */
+
 #title_section1:hover {
   color: #000;
 }
@@ -270,6 +271,16 @@ a {
   top: 0;
   z-index: 50;
 }
+
+.section2_items > div { /*  highlight 1 */
+  font-size: smaller;
+  display: grid;
+}
+
+.section2_items > div > div {
+  display: flex;
+  flex-direction: row;
+}/*  highlight 2  */
 
 #nav_bar2 > div {
   width: 100%;
@@ -452,6 +463,61 @@ body {
   height: 194px;
   box-shadow: inset -5em -20em 9em -2em rgba(0, 0, 0, 0.685);
 }
+
+/*  SECTION 2  */
+
+#title1 {/*  highlight 1  */
+  margin: auto;
+  display: flex;
+  width: 90%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  justify-content: start;
+}
+
+#title1 > h3 > a {
+  color: #f42;
+  font-size: 27px;
+}
+
+#section2 {
+  width: 90%;
+  height: 750px;
+  display: grid;
+  margin: auto;
+  grid-gap: unset;
+  grid-template-columns: unset;
+}
+
+.section2_items {
+  display: grid;
+  width: 90%;
+  grid-gap: 10px;
+  grid-template-columns: 25% 75%;
+  margin-bottom: 10px;
+  height: 80px;
+}
+
+.section2_links {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.special_text {
+  color: #adadad;
+}
+
+.section2_items > img {
+  height: 100%;
+  width: 100%;
+}
+
+.section2_links:hover {
+  color: #f42;
+}/*  highlight 2 */
+
+/*  SECTION 3  */
 
 .layer_top {
   display: grid;
