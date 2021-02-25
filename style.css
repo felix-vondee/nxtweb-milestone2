@@ -56,6 +56,13 @@ a {
   color: #131313;
 }
 
+/*   highlight  */
+.part1 > a {
+  color: #f42;
+  font-weight: bolder;
+  font-size: 23px;
+} /*   highlight  */
+
 .layer_bot > div > a {
   color: #000;
 }
@@ -70,6 +77,18 @@ a {
   font-size: small;
 }
 
+/*   highlight  */
+.section5_items > div > p > a {
+  color: #000;
+  font-weight: bolder;
+  font-size: 14px;
+} /*   highlight  */
+
+/*   highlight  */
+.part1 > a:hover {
+  color: black;
+}/*   highlight  */
+
 .layer_bot > div > span > a:hover {
   color: black;
 }
@@ -82,12 +101,151 @@ a {
   cursor: pointer;
 }
 
+/*  highlight  */
+#search_int {
+  cursor: pointer;
+} /*  highlight  */
+
+/*  highlight  */
+.before_image > p > a:hover {
+  border-bottom: 1px solid #f42;
+}/*  highlight  */
+
 #nav_bar1 > div > a {
   color: rgb(201, 196, 196);
   text-decoration: none;
   margin-left: 7px;
 }
+/*  highlight 1  */
+.section2_items > div > div > a:hover {
+  color: #000;
+}
 
+.before_image > p {
+  color: #f42;
+  margin-left: 20px;
+}
+
+.section5_items > div > p > a:hover {
+  color: #f42;
+}
+
+#part2_1 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_1 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_2 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_2 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_3 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_3 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_4 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_4 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_5 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_5 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_6 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_6 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_7 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_7 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_8 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_8 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
+
+#part2_9 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#part2_9 > p {
+  color: white;
+  margin: 0 0 10px 10px;
+  font-size: small;
+}
 #title_section1:hover {
   color: #000;
 }
