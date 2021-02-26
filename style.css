@@ -31,18 +31,16 @@
   /*  highlight 1  */
   margin: auto;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin-top: 60px;
   margin-bottom: 30px;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 #title1 h3 a {
   color: #f42;
   font-size: 27px;
 }
-/*# sourceMappingURL=style.css.map */
