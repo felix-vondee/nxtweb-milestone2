@@ -1,0 +1,15 @@
+.part1 a {
+  color: #f42;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.layer_bot div a {
+  color: #000;
+}
+
+.before_image p a {
+  color: #f42;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

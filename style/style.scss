@@ -1,0 +1,30 @@
+$b: #000;
+
+@mixin red-bold {
+  color: #f42;
+  font-weight: bold;
+}
+
+.part1 {
+  a {
+    @include red-bold;
+
+    font-size: 23px;
+  }
+}
+
+.layer_bot {
+  div {
+    a {
+      color: $b;
+    }
+  }
+}
+
+.before_image {
+  p {
+    a {
+      @include red-bold;
+    }
+  }
+}
